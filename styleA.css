@@ -26,6 +26,6 @@ body {
 }
 
 .box:last-child {
-    border: 4px solid #687291;
-    color: #000;
+    border: 4px solid #000000;
+    background-color: #687291;
 }
