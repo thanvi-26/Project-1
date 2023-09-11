@@ -1,0 +1,37 @@
+body {
+
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box:hover {
+    background-color: yellow;
+    color: goldenrod;
+    transition: background-color 0.3s, color 0.3s;
+}
+.box span {
+    padding: 10px;
+}
