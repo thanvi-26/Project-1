@@ -17,8 +17,8 @@ body {
     border-left: 10px dotted #D0D0FF;
     margin-right: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: top;
 }
 
 .box:last-child {
